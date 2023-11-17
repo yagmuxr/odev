@@ -61,6 +61,46 @@ function App() {
       puan: 5,
       id: 1,
     },
+    {
+      baslik: "Flutter Öğreniyorum",
+      url: "wwww.facebook.com.tr",
+      yazar: "Ali Yüksek",
+      yorum_sayisi: 2,
+      puan: 5,
+      id: 2,
+    },
+    {
+      baslik: " Python Öğreniyorum",
+      url: "www.isubu.edu.tr",
+      yazar: "Ayşe Veli",
+      yorum_sayisi: 3,
+      puan: 4,
+      id: 3,
+    },
+    {
+      baslik: "Veri Madenciliği",
+      url: "wwww.linkedin.com.tr",
+      yazar: "Damla Yalçın",
+      yorum_sayisi: 2,
+      puan: 5,
+      id: 4,
+    },
+    {
+      baslik: "İşletim Sistemleri",
+      url: "www.btk.gov.tr",
+      yazar: "Yağmur Yalçın",
+      yorum_sayisi: 3,
+      puan: 4,
+      id: 5,
+    },
+    {
+      baslik: "Oyun Programlama",
+      url: "wwww.unity.com",
+      yazar: "Atakan Berk",
+      yorum_sayisi: 2,
+      puan: 5,
+      id: 6,
+    },
   ];
 
   const arananYazilar = yaziListesi.filter(function (yazi) {
