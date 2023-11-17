@@ -122,6 +122,7 @@ function App() {
   return (
     <div>
       <h1>Yazılar</h1>
+      <h2>2111012613 Yağmur Yalçın</h2>
       <Arama onSearch={handleSearch} aramaMetni={aramaMetni} />
       <hr />
       <p>
